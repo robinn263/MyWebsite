@@ -1,0 +1,291 @@
+@charset "UTF-8";
+
+/* How to import fonts found here: https://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file
+Sizing info found at: https://www.w3schools.com/css/css_font_size.asp
+Font from: https://fonts.google.com/specimen/Urbanist?query=urban*/
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Media query info found at: https://www.w3schools.com/css/css3_mediaqueries_ex.asp */
+@media (max-width: 768px) {
+	.shortwidth{
+		width:unset;
+	}
+}
+
+body {
+	background-color: #c2e0ff;
+}
+
+
+p {
+	font-family: "urbanist", helvetica, "comic sans";
+	font-size: 1.5em;
+	text-align: center;
+	margin: 5px;
+	padding: 10px;
+	color: navy;
+	
+	}
+	
+/* Header Editing */
+
+h1 {
+	font-weight: 900;
+}
+.averageh {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'urbanist', geneva, helvetica;;
+	color: navy;
+	background-color:lightblue;
+	border-style: solid; 
+	border-width: 3px;
+	border-color: #559dff;
+	padding: 3px;
+}
+
+.header {
+	background: no-repeat center;
+	background-size: cover;
+	background-position: 0 32%;
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'urbanist', geneva, helvetica;
+	font-weight: 900;
+	color: lightblue;
+	text-shadow: 6px 6px 10px black;
+	border-style: solid; 
+	border-width: 3px;
+	border-color: #559dff;
+	border-radius: 0px;
+	margin: 5px;
+}
+
+/* INDEX.HTML and ABOUTME.HTML ids*/
+#home-page-header {
+	background-image: url("images/miami_road.jpg");	
+}
+
+#about-me-header{
+	background-image: url('images/sunsetjune24.jpg');
+	background-position: 40% 60%;
+	padding: 1px;
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'urbanist', geneva, helvetica;
+	font-weight: 900;
+	color: lightblue;
+	text-shadow: 3px 3px 10px black;
+	border-style: solid; 
+	border-width: 3px;
+	border-color: #559dff;
+	border-radius: 0px;
+	margin: 5px;
+}
+
+#opening {
+font-family: "urbanist", helvetica, geneva;
+font-weight: 500;
+font-size: 2em;
+}
+
+/* borders */
+.bbrownborder {
+	border-style: solid; 
+	border-width: 3px;
+	border-color: #559ddf;
+	border-radius: 0px;
+	margin: 5px;
+	padding: 10px;
+	background-color: #c2e0ff;
+}
+
+.brownborder {
+	border-style: solid; 
+	border-width: 3px;
+	border-color: #559ddf;
+	border-radius: 0px;
+	margin: 5px;
+	padding: 10px;
+	background-color:lightblue;
+	
+}
+.brownborder2 {
+	border-style: solid; 
+	border-width: 2.5px;
+	border-color: #895B1E;
+	border-radius: 0px;
+	padding: 5px;
+	
+}
+	
+.smallheading {
+	font-family: "urbanist", helvetica, "comic sans";
+	font-weight: 100;
+	font-size: 1.9em;
+	text-align: center;
+	margin: 2px;
+	padding: 4px;
+	color: navy;
+}
+
+/* Image Formatting and Alignments */
+.center-aligned-buttons {
+	width: 100%;
+	text-align: center;
+}
+
+
+.floatright {
+	float: right;
+}
+
+.floatleft {
+	float: left;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.imagerepel {
+	padding-left: 5px;
+}
+
+.picpadding {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.center-align {
+	text-align: center;
+}
+#basicbox{
+	padding-right:15px;
+	text-align: center;
+}
+.picpadding {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.icon-top {
+	padding-top: 10px;
+}
+
+.div-row-container {
+	display: inline-block;
+	/*https://www.w3schools.com/css/css_inline-block.asp*/
+	
+}
+
+img.resize {
+    width:400px;
+    height: auto;
+}
+
+img.center {
+	align:center;
+}
+
+.photoborder {
+	border-style: solid; 
+	border-width: 3px;
+	border-color: #559ddf;
+	border-radius: 0px;
+	margin: 5px;
+	padding: 10px;
+	background-color:#c2e0ff;
+	
+}
+
+.shortwidth{
+	width:45%;
+}
+
+.mycoolpicdiv {
+	display: block;
+    width: 40%;
+    margin: auto;
+    float: none;
+	
+}
+
+.mycoolpic {
+	max-width: 100%;
+	
+} 
+
+.longdiv {
+	width: 100%;
+}
+
+
+
+/* NAVIGATION */
+.nav-tab:link, .nav-tab:visited {
+	color: lightblue;
+	padding: 14px 15px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font-family: "urbanist", helvetica, geneva;
+	font-weight: 500;
+	font-style: italic;
+	box-align: center;
+	font-size: 1.25em;
+}
+
+.nav-tab:hover, .nav-tab:active {
+	background-color: navy;
+}
+
+.nav {
+	width: 100%;
+	text-align: center;
+	background-color: #559dff; 
+	padding: 3px 0px;
+}
+
+/* LINKS */
+
+.linky.header-icon-link:hover {
+	color: white;
+}
+
+.linky:link, .linky:visited {
+	color: lightblue;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font-family: "urbanist", helvetica, geneva;
+	font-weight: 500;
+	font-style: italic;
+	box-align: center;
+	font-size: 1.25em;
+}
+
+.linky:hover {
+	color: navy;
+}
+
+.doublelinky:link, .doublelinky:visited {
+	color: navy ;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.triplelinky:link, .triplelinky:visited {
+	color: navy;
+	text-decoration: none;
+}
+.triplelinky:hover {
+	color: #559ddf;
+}
+
+
+	
